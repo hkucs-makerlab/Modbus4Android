@@ -37,6 +37,7 @@ dependencies {
 */
 dependencies {
 
+    implementation project(':modbus4androidlib')
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
