@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.zgkxzx.modbus4And'
-    compileSdk 34
+    compileSdk = 34
 
     defaultConfig {
         minSdk 24

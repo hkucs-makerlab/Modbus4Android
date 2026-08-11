@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.zgkxzx.modbustest'
-    compileSdk 34
+    compileSdk = 34
 
     defaultConfig {
         applicationId "com.zgkxzx.modbustest"
@@ -42,7 +42,6 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
     implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
-    implementation project(':modbus4androidlib')
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
